@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+input,textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+input,textarea,label {
+    margin-top: 20px;
+}
+
+button {
+    position: relative;
+    left: 28px;
+    margin-top: 25px;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
